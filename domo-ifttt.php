@@ -43,11 +43,21 @@ function getDevices(){
 };
 
 //Smish string down into just letters and numbers
-//This improves the changes of a proper match by ignoring spaces, punctuation, capitalisation, etc.
+//This improves the changes of a proper match by ignoring spaces, punctuation, capitalisation, "the", "my" etc.
 function simplifyMatch($v){
+	$v = strtolower($v);
+	$v = removeUselessWord($v, 'the');
+	$v = removeUselessWord($v, 'my');
+	$v = removeUselessWord($v, 'our');
 	$v = preg_replace("/^[a-zA-Z0-9]+$/", '', $v);
 	$v = str_replace(' ', '', $v);
-	$v = strtolower($v);
+	
+	return $v;
+};
+
+function removeUselessWord($v, $w){
+	$len = strlen($w)+1;
+	if(substr($v,0,$len) == $w.' '){return substr($v,$len);};
 	return $v;
 };
 
