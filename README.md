@@ -9,8 +9,9 @@ Provides a relatively quick and easy way to voice control multiple devices in Do
 4. Give it a bit of a test with a URL like this...  https://yourserver.whatever/domo-ifttt.php?passkey=superSecretPasswordOnlyIFTTknows&devName=Thing+to+Test+With&devState=1
 5. Have a squizz in Syslog to see how it went
 6. If it's working testing locally, it's time to set up IFTTT - check "README - IFTTT Setup.pdf" for instructions
-7. ???
-8. PROFIT!!
+7. Repeat the same instructions from step 6, but with "Off" and devState=0
+8. ???
+9. PROFIT!!
 
 ## About
 I tried a couple of half-assed solutions for this problem out there... 
