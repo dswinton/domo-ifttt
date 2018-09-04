@@ -11,10 +11,11 @@ Control *ALL* Domotics switches, scenes, groups with just 2 simple ifttt applets
 5. Have a look in Syslog to see how it went
 6. If it's working locally, it's time to set up IFTTT - check "README - IFTTT Setup.pdf" for instructions
 7. Repeat IFTTT step by creating a 2nd applet but now with "Off" and devState=0
+8. Have Fun
 
 ## About
 I tried a couple of half-assed solutions for this problem out there... 
 - I started following the Domoticz instructions for IFTTT integration but it was going to take about 100 years for me to add all the devices is wanted in there.
 
 I found this script mostly out of frustration.
-Now forked this and trying to improve it wherever i can.
+Now forked this (Thnx DSwinton) and trying to improve it wherever i can.
