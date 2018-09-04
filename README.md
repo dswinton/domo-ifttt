@@ -1,7 +1,8 @@
 # domo-ifttt
 
 Provides a relatively quick and easy way to voice control multiple devices in Domoticz using IFTTT.
-Control *ALL* Domotics switches, scenes, groups with just 2 simple ifttt applets.
+
+NEW NEW NEW --- Control *ALL* Domotics switches, scenes, groups with just 2 simple ifttt applets.
 
 ## Instructions:
 1. Install this PHP file on a web server (prefered running on the same box as Domoticz).
